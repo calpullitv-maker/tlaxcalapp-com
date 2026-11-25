@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Tlaxcalapp</title>
+<script>
+(function () {
+  var p = location.pathname.toLowerCase();
+  if (p.indexOf('/calpulalpapp') === 0 || p === '/calpulalpan') {
+    location.replace('/#calpulalpapp');
+  } else {
+    location.replace('/');
+  }
+})();
+</script>
+</head>
+<body>
+<p>Redirigiendo a <a href="/#calpulalpapp">Tlaxcalapp</a>…</p>
+</body>
+</html>
